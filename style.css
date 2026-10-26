@@ -22,7 +22,7 @@ body {
     font-size: 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 800;
-    color: #f8f6f5;
+    color: rgb(249, 247, 244);
     float: left;
 }
 
@@ -38,7 +38,7 @@ nav {
     position: sticky;
     position: -webkit-sticky;
     top: 0px;
-    background-color: rgb(5, 5, 0);
+    background-color: rgb(5, 5, 5);
     z-index: 1;
 }
 
@@ -54,7 +54,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: rgb(244, 242, 242);
+    color: rgb(243, 240, 236);
     font-weight: bold;
     text-align: center;
     padding: 0px 16px 0px 16px;
@@ -66,6 +66,74 @@ nav ul li a:hover {
 }
 
 a.order {
+    background: rgb(229, 229, 11);
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px 15px 10px 15px;
+    color: aliceblue;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+/*akhir navbar*/
+
+/*AWAL BANNER*/
+section {
+    margin: 0px;
+    display: flex;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.kolom {
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    color: black;
+}
+
+.kolom .deskripsi {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    line-height: 25px;
+    justify-content: first baseline;
+}
+
+p {
+    font-family: 'comic ms sans';
+    color: black;
+    line-height: 20px;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 30px;
+    color: rgb(240, 240, 6);
+    width: 100%;
+    line-height: 60px;
+}
+
+/*pembungkus gambar banner*/
+.gambar {
+    margin-top: 50px;
+    width: 480px;
+    height: auto;
+    float: right;
+    border-radius: 25px;
+    object-fit: cover;
+    box-shadow: 0 10px 20px rgb(229, 229, 11, 0.7);
+    transition: transform 0.3s ease;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    transform: translateY(-4px);
+    gap: 40px;
+}
+
+a.reservasi{
     background: #f0960e;
     border-radius: 20px;
     margin-top: 20px;
@@ -73,6 +141,7 @@ a.order {
     color: aliceblue;
     cursor: pointer;
     font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/*akhir navbar*/
+/*AKHIR BANNER*/
